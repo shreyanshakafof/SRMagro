@@ -1,0 +1,241 @@
+.body{
+  background-image: linear-gradient(to bottom right, orange,white,green);
+  background-repeat: no-repeat;
+}
+
+
+.th_header{
+width: 100%;
+position: fixed;
+display: grid;
+
+}
+
+
+.header{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 76, 21);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+
+.header_logo{
+  vertical-align: middle;
+  width: 15%;
+  height: 100%;
+  transition-duration: 0.15s;
+}
+
+.header_logo:hover{
+  opacity: 0.9;
+}
+
+
+.headertext{
+  margin-bottom: 0px;
+  text-align: center;
+  margin-left:28%;
+  display: inline-block;
+  font-family: arial;
+  margin-top: 15px;
+  vertical-align: top;
+  color: white;
+  line-height: 15px;
+  transition:0.15s;  
+}
+
+
+.headertext:hover{
+  color:rgb(255, 149, 0);
+}
+
+
+.bigtext{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.smalltext{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+
+.link_band{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(138, 255, 70);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+  
+}
+
+
+.s{
+  margin-top: 0px;
+  width: fr1;
+  flex: 1;
+  background-color: rgba(255, 255, 255,0);
+  color: rgb(0, 128, 6);
+  font-family: arial;
+  font-size: 20px;
+  margin-left: 0px;
+  text-align: center;
+  font-weight: bold;
+  transition-delay: 0.2s;
+  border-width: 0px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+  margin-left:100px;
+}
+
+
+.s:hover{
+  color: rgb(0, 157, 255);
+  background-color: white;
+}
+
+
+.left_side_image{
+  width: 25%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  margin-right: 30px;
+}
+
+
+.left_side_text{
+  font-family: arial;
+  font-size: 30px;
+  display: inline-block;
+  width: 50%;
+  max-height: 100%;
+  vertical-align: top;
+}
+
+
+.left_sided{
+  height: 300px;
+}
+
+
+.right_side_image{
+  width: 25%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  margin-right: 30px;
+}
+
+
+.right_side_text{
+  font-family: arial;
+  font-size: 30px;
+  display: inline-block;
+  width: 50%;
+  max-height: 100%;
+  vertical-align: top;
+  margin-left: 20%;
+}
+
+
+.right_sided{
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+
+.products{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 10px;
+}
+
+
+.product_box{
+  flex:1fr;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  column-gap: 5px;
+}
+
+
+.product_image{
+  flex: 1fr;
+}
+
+
+.product_img{
+  width: 300px;
+}
+
+
+.product_info{
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+.buying_options{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+.x{
+  text-align: center;
+}
+
+
+.indiamart{
+  background: #19a598;
+  color: white;
+  width: 120px!important;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  border-width: 0px;
+  border-radius: 3px;
+  }
+
+
+  .indiamart:hover{
+    background-color: #138176;
+    
+  }
+
+
+  .amazon{
+    background: rgb(255, 217, 0);
+    color: black; 
+    width: 120px!important;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-width: 0px;
+    border-radius: 3px;
+    
+  }
+
+  .amazon:hover{
+    background-color: rgb(244, 209, 10);
+  }
