@@ -239,3 +239,14 @@ display: grid;
   .amazon:hover{
     background-color: rgb(244, 209, 10);
   }
+
+ .comingsoon{
+    display: flexbox;
+    align-content: center;
+    margin-left: 25%;
+  }
+
+  .comingsoonimage{
+    
+    height: 300px;
+  }
